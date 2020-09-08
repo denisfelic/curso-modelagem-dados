@@ -1,0 +1,9 @@
+entidade relacionamento 
+cardinalidade
+
+Lê se:
+- Professor leciona para 0 ou N  Turmas.
+- Turma é lecionada por 1 no máximo 1 Professor.
+[PROFESSOR] (0,n) --- <LECIONA>  --- (1,1) [TURMA]
+
+Porem dependendo do caso pode inverter os lados da cardinalidade.
